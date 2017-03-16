@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  box-sizing: border-box; }
+
+html {
+  background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(at bottom, #0096D6 12%, #00328F); }
+
+#container {
+  min-height: 100%;
+  position: relative; }
+
+#home .logo {
+  margin: 5px;
+  padding: 5px;
+  background-color: #DFB50A;
+  border-top: 3px dotted #000;
+  border-bottom: 3px dotted #000;
+  box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+  margin-bottom: 1px; }
+
+#finder {
+  height: 90%;
+  padding: 10px;
+  padding-bottom: 32px;
+  flex: 1; }
+
+#finder {
+  color: #F3F3F3;
+  margin-top: 30px;
+  font-size: 28px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700; }
+
+#finder p {
+  color: #F3F3F3;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 300; }
+
+#finder .year {
+  color: #F3F3F3;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  font-weight: 300; }
+
+#movies, #false {
+  padding: 0; }
+
+.form-control {
+  background-color: #F3F3F3; }
+
+#movies .title {
+  font-size: 24px; }
+
+footer {
+  border-top: 3px dotted #000;
+  border-bottom: 3px dotted #000;
+  box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+  margin-bottom: 1px;
+  background-color: #1B2F61;
+  padding: 5px 0;
+  width: 100%; }
+
+footer div p {
+  margin-bottom: 0;
+  color: #B9B9B9;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; }
+
+  #finder h2 {
+    color: #F3F3F3;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Karla", sans-serif;
+    font-weight: 700; }
+
+  #finder p {
+    margin-top: 20px;
+    color: #F3F3F3;
+    font-size: 14px;
+    font-family: "Karla", sans-serif;
+    font-weight: 300; } }
+
+/*# sourceMappingURL=style.css.map */
